@@ -1,13 +1,4 @@
 // ES6 Classes (class 문법)
-// function User(first, last) {
-//   this.firstName = first;
-//   this.lastName = last;
-// }
-
-// User.prototype.getFullName = function () {
-//   return `${this.firstName} ${this.lastName}`
-// }
-
 class User {
   constructor(first, last) {
     this.firstName = first;
@@ -17,6 +8,8 @@ class User {
     return `${this.firstName} ${this.lastName}`
   }
 }
+
+//// constructor는 클래스의 인스턴스 객체를 생성하고 초기화하는 메서드이다.
 // constructor 내부함수로 매개변수를 받아서 사용
 // class문법은 리액트에서도 많이 사용됨
 // : 콜론과 function 키워드는 class문법 안에서 지원X 
